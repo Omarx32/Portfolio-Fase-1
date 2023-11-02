@@ -10,25 +10,25 @@ export const View = () => {
         <div className=" ">
           <img className={style.imgMe} src="./foto.png" alt="holacomovas" />
         </div>
-        <div>
+        <div className="mr-16">
           <h1 class="text-8xl mb-4" className={style.text}>Omar</h1>
           <div>
-          <h1 class="text-8xl mb-4 ml-12" className={style.text1}>Sampayo</h1>
+          <h1 class="text-8xl mb-4 ml-32" className={style.text1}>Sampayo</h1>
           </div>
           <h3 className="text-4xl mt-8">Full-Stack Web Developer</h3>
-          <p className=" mt-8">
-            I'm 18 years old and I'm from Valencia, Venezuela. Over the last
+          <p className=" mt-8 mr-16">
+            I'm 18 years old and I'm from Valencia, Venezuela. <br /> Over the last
             year, I have worked on various <br />
-            projects using mainly the MERN stack. One of the things I enjoy most
+            projects using mainly the MERN stack. <br /> One of the things I enjoy most
             about my work is paying close attention to details. <br /> I like to
-            focus on design and user experience, and I make sure that my
+            focus on design and user experience, <br /> and I make sure that my
             projects are not only functional but also beautiful and enjoyable to
             use. <br />I am always up to date with the latest trends in
             technology and design.
           </p>
         </div>
       </section>
-      <section id="exterprise" className="pt-32 pb-44">
+      <section id="exterprise" className="pt-32 pb-80">
         <div className="flex justify-center">
           <h1 className="text-7xl">My Exterprise</h1>
         </div>
@@ -41,8 +41,8 @@ export const View = () => {
                 <h1 className="text-xl ml-20">ReactJS NextJS</h1>
               </div>
             </div>
-            <div>
-              <p>
+            <div className="">
+              <p className="mt-12">
                 {`
       <h2> Passionate about UI/UX.  I have experience in
      
@@ -64,19 +64,23 @@ export const View = () => {
             <div>
               <p>
                 {`
-      <h2> Passionate about UI/UX.  I have experience in
-     
-                    `}
+      <h2> Enthusiastic about Backend Development.
+        
+                    `} <br />
+                    {` I have experience in NODEJS, EXPRESS, DATABASES,`}
                 <br />
-                {` HTML5,  CSS3,  JS, REACT and NEXTJS frameworks </h2>`}
+                {`  and building server-side applications</h2>`}
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section id="projects" className="w-full flex justify-center items-center h-96">
-        <div>
+      <section id="projects" className={`w-full flex justify-center items-center flex-col  pt-32 ${style.project}`}>
+        <div className="flex flex-col justify-center">
+          
           <h1 className="text-7xl">My Projects</h1>
+        </div>
+        <div>
           <Cards />
         </div>
       </section>
@@ -109,13 +113,13 @@ export const View = () => {
                     <img src="./icons8-github.svg" alt="" />
                 </div>
                 <div className="flex flex-wrap flex-col colum items-center ml-8 mt-2 justify-around">
-                <a className='mt-1'href="www.x.com/omarx32">www.x.com/omarx32</a>
+                <a className='mt-1'href="https://www.x.com/omarx32">www.x.com/omarx32</a>
                 <br />
-                <a href="www.x.com/omarx32">www.x.com/omarx32</a>
+                <a href="https://www.linkedin.com/in/omarx32">www.linkedin.com/in/omarx32</a>
                 <br />
-                <a href="www.x.com/omarx32">www.x.com/omarx32</a>
+                <a href="https://www.instagram.com/omarx32">www.instagram.com/omarx32</a>
                 <br />
-                <a className='mt-1' href="www.x.com/omarx32">www.x.com/omarx32</a>
+                <a className='mt-1' href="https://www.github.com/omarx32">www.github.com/omarx32</a>
                 <br />
                 </div>
                 </div>

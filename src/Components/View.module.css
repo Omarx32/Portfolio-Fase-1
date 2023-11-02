@@ -37,4 +37,8 @@
   background-clip: text;/* Para navegadores basados en WebKit (como Chrome y Safari) */
   color: transparent;
   display:inline;
+  margin-left: 8rem;
+}
+.project{
+  padding-bottom: 105vh;
 }

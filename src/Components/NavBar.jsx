@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 
 export const NavBar = () => {
   return (
-    <nav className={`flex justify-around items-center fixed ${style.nav}`}>
-      <div className="-mr-36 ml-24">Omar Sampayo</div>
+    <nav className={`flex justify-around items-center fixed ${style.nav} text-xl`}>
+      <div className="-mr-36 ml-24 text-3xl">Omar Sampayo</div>
       <ul className="flex ml-16">
         <li className="mr-8">
           <Link to="home" spy={true} smooth={true} offset={0} duration={500}>

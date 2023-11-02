@@ -6,3 +6,6 @@
     background: linear-gradient(to bottom, #f3fafa, #d5f2f0);
   }
   
+  :root, body, main, header{
+    font-family:monospace;
+  }
