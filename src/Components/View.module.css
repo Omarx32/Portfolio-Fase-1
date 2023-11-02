@@ -42,3 +42,9 @@
 .project{
   padding-bottom: 105vh;
 }
+.contac{
+  width: 60vh;
+  background-color: #e5f8f7;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}

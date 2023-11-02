@@ -105,8 +105,8 @@ export const View = () => {
                 </button>
               </div>
                 </div>
-                <div className="flex mt-16 ml-12 ">
-                <div className="flex flex-wrap flex-col items-center mr-16 justify-around">
+                <div className={`flex mt-16 ml-12 ${style.contac}`}>
+                <div className="flex flex-wrap flex-col items-center mr-16 justify-around ml-10">
                     <img src="./icons8-twitter.svg" alt="" />
                     <img src="./icons8-linkedin.svg" alt="" />
                     <img src="./icons8-instagram.svg" alt="" />
