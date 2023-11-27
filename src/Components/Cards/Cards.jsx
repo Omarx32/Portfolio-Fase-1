@@ -50,13 +50,18 @@ export const Cards = () => {
         </div>
         <div>
           <img
-            src="./Captura de pantalla 2023-10-05 023527.png"
+            src=" ./chrome-capture-2023-11.png"
             alt="hola"
-            className="w-86 h-52 rounded-3xl hover:scale-110"
+            className="w-86 h-52 rounded-3xl transition-transform duration-1000 hover:scale-110"
+            style={{width:'290px', height:'150px'}}
           />
           <div className="flex justify-center mt-4">
+          <a href="https://www.github.com/Omarx32">
             <FontAwesomeIcon icon={faGithub} className=" mr-8 h-8" />
+            </a>
+            <a href="https://pf-2-lavenganza-front-6doztsbfp-migorriti.vercel.app/">
             <FontAwesomeIcon icon={faGlobe} className="h-8" />
+            </a>
           </div>
         </div>
       </div>
@@ -65,13 +70,18 @@ export const Cards = () => {
       >
         <div>
           <img
-            src="./Captura de pantalla 2023-10-05 023527.png"
+            src="./chrome-capture-2023-11-10.png"
             alt="hola"
-            className="w-86 h-52 rounded-3xl hover:scale-110"
+            className="w-86 h-64 rounded-3xl transition-transform duration-1000 hover:scale-110"
+           
           />
           <div className="flex justify-center mt-4">
+          <a href="https://www.github.com/Omarx32">
             <FontAwesomeIcon icon={faGithub} className=" mr-8 h-8" />
+            </a>
+            <a href="https://rumrum-nyd5.vercel.app/">
             <FontAwesomeIcon icon={faGlobe} className="h-8" />
+            </a>
           </div>
         </div>
         <div>
@@ -148,11 +158,15 @@ export const Cards = () => {
           <img
             src="./Captura de pantalla 2023-10-05 023527.png"
             alt="hola"
-            className="w-86 h-52 rounded-3xl hover:scale-110"
+            className="w-86 h-52 rounded-3xl transition-transform duration-1000 hover:scale-110"
           />
           <div className="flex justify-center mt-4">
+            <a href="https://www.github.com/Omarx32">
             <FontAwesomeIcon icon={faGithub} className=" mr-8 h-8" />
+            </a>
+            <a href="https://rumrum-nyd5.vercel.app/">
             <FontAwesomeIcon icon={faGlobe} className="h-8" />
+            </a>
           </div>
         </div>
       </div>
