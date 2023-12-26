@@ -7,7 +7,7 @@ export const View = () => {
   return (
     <div className="">
       <section id="home" className="w-full flex flex-col sm:flex sm:flex-wrap  justify-center items-center sm:h-screen max-sm:pb-16  ">
-        <div className="max-sm:ml-12 ">
+        <div className=" ">
           <img className={style.imgMe} src="./foto.png" alt="holacomovas" />
         </div>
         <div className="mr-16 max-sm:text-center ">
