@@ -30,7 +30,7 @@ export const View = () => {
       </section>
       <section id="exterprise" className="pt-32 pb-80 ">
         <div className="flex justify-center">
-          <h1 className="text-7xl">My Exterprise</h1>
+          <h1 className="text-7xl max-sm:text-center">My Exterprise</h1>
         </div>
         <div className="w-full flex justify-center items-center mt-32 max-sm:flex-col">
           <div className="sm:pr-64 max-sm:mb-44">
@@ -75,23 +75,23 @@ export const View = () => {
           </div>
         </div>
       </section>
-      <section id="projects" className={`w-full flex justify-center items-center flex-col  pt-32 ${style.project}`}>
+      <section id="projects" className={`w-full flex justify-center items-center flex-col ${style.project}`}>
         <div className="flex flex-col justify-center">
           
-          <h1 className="text-7xl">My Projects</h1>
+          <h1 className="text-7xl max-sm:mt-16 mt-16">My Projects</h1>
         </div>
         <div>
           <Cards />
         </div>
       </section>
-      <section id="contactme" className="pt-16 pb-32">
+      <section id="contactme" className="pt-16 pb-32 max-sm:text-center  max-sm:leading-5">
         <h1 className="text-7xl text center flex justify-center items-center mb-32">
           Contact Me
         </h1>
 
         <div className="w-full flex justify-center items-center h-96 text-center ">
           <div className="">
-            <div className="mb-16 text-3xl">
+            <div className="mb-16 text-3xl text-center">
             <h1>Available to work opportunities</h1>
             </div>
                 <div className="text-xl">
@@ -99,11 +99,7 @@ export const View = () => {
               Have an exciting project you need help with?<br /> Send me an email or
               contact me via <br />instant message!
             </p>
-              <div className="mt-8">
-               <button> 
-                Calendly
-                </button>
-              </div>
+             
                 </div>
                 <div className={`flex mt-16 ml-12 ${style.contac}`}>
                 <div className="flex flex-wrap flex-col items-center mr-16 justify-around ml-10">

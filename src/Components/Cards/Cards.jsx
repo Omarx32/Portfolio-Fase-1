@@ -13,9 +13,9 @@ export const Cards = () => {
   return (
     <div className={` mt-16 ${style.divprincipal} `}>
       <div
-        className={`bg-white  ${style.container}  flex justify-around items-center font-mono rounded-3xl`}
+        className={`bg-white  ${style.container}  flex justify-around items-center font-mono rounded-3xl max-sm:flex-col-reverse max-sm:h-max pt-16 pb-16`}
       >
-        <div>
+        <div className="">
           <div className="">
             <div className="flex justify-center text-4xl mb-4">
               <h1>WanderLuxe</h1>
@@ -26,7 +26,7 @@ export const Cards = () => {
           </div>
           <div className="flex flex-col justify-center ">
             <h1 className="mt-16 flex justify-center text-2xl ">Tech Used</h1>
-            <div className="flex justify-between mt-4">
+            <div className="flex justify-between mt-4 ">
               <div>
                 <FontAwesomeIcon
                   icon={faReact}
@@ -66,7 +66,7 @@ export const Cards = () => {
         </div>
       </div>
       <div
-        className={`bg-white  ${style.container}  flex justify-around items-center font-mono rounded-3xl mt-16`}
+        className={`bg-white  ${style.container}  flex justify-around items-center font-mono rounded-3xl mt-16 max-sm:flex-col max-sm:h-max pt-16 pb-16`}
       >
         <div>
           <img
@@ -86,7 +86,7 @@ export const Cards = () => {
         </div>
         <div>
           <div className="">
-            <div className="flex justify-center text-4xl mb-4">
+            <div className="flex justify-center text-4xl mb-4 ">
               <h1>Ignite Motors</h1>
             </div>
             <div className=" flex justify-center text-xs">
@@ -95,7 +95,7 @@ export const Cards = () => {
           </div>
           <div className="flex flex-col justify-center ">
             <h1 className="mt-16 flex justify-center text-2xl ">Tech Used</h1>
-            <div className="flex justify-between mt-4">
+            <div className="flex justify-between mt-4 ">
               <div>
                 <FontAwesomeIcon
                   icon={faReact}
@@ -119,7 +119,7 @@ export const Cards = () => {
         </div>
       </div>
       <div
-        className={`bg-white mt-16 ${style.container}  flex justify-around items-center font-mono rounded-3xl`}
+        className={`bg-white mt-16 ${style.container}  flex justify-around items-center font-mono rounded-3xl max-sm:flex-col-reverse max-sm:h-max pt-16 pb-16`}
       >
         <div>
           <div className="">
