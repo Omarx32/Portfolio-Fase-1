@@ -1,4 +1,9 @@
-
+.imgMe{
+  width: 40vh;
+  height: 50vh;
+  border-radius: 40px;
+    border: 2px solid rgb(93, 230, 173) ;
+   }
 .parrafo{
     line-height: 1.2; /* Ajusta según tus necesidades */
   font-size: 14px; /* Ajusta el tamaño de fuente según tus necesidades */
