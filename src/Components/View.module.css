@@ -59,7 +59,9 @@
 
 }
 @media not all and (min-width: 640px) {
-  
+  .contac{
+    width: 50vh;
+  }
   .project{
     padding-bottom: 230vh;
   }

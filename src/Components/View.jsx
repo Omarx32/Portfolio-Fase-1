@@ -85,30 +85,30 @@ export const View = () => {
         </div>
       </section>
       <section id="contactme" className="pt-16 pb-32 max-sm:text-center  max-sm:leading-5">
-        <h1 className="text-7xl text center flex justify-center items-center mb-32">
+        <h1 className="text-7xl text center flex justify-center items-center max-sm:text-center mb-32">
           Contact Me
         </h1>
 
         <div className="w-full flex justify-center items-center h-96 text-center ">
           <div className="">
-            <div className="mb-16 text-3xl text-center">
+            <div className="mb-16 text-3xl text-center max-sm:text-2xl">
             <h1>Available to work opportunities</h1>
             </div>
-                <div className="text-xl">
+                <div className="text-xl max-sm:text-sm">
             <p>
               Have an exciting project you need help with?<br /> Send me an email or
               contact me via <br />instant message!
             </p>
              
                 </div>
-                <div className={`flex mt-16 ml-12 ${style.contac}`}>
+                <div className={`flex mt-16 sm:ml-12  ${style.contac}`}>
                 <div className="flex flex-wrap flex-col items-center mr-16 justify-around ml-10">
                     <img src="./icons8-twitter.svg" alt="" />
                     <img src="./icons8-linkedin.svg" alt="" />
                     <img src="./icons8-instagram.svg" alt="" />
                     <img src="./icons8-github.svg" alt="" />
                 </div>
-                <div className="flex flex-wrap flex-col colum items-center ml-8 mt-2 justify-around">
+                <div className="flex flex-wrap flex-col colum items-center ml-8 mt-2  justify-around">
                 <a className='mt-1'href="https://www.x.com/omarx32">www.x.com/omarx32</a>
                 <br />
                 <a href="https://www.linkedin.com/in/omarx32">www.linkedin.com/in/omarx32</a>
