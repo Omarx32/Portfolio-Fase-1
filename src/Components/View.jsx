@@ -6,17 +6,17 @@ import { Cards } from "./Cards/Cards";
 export const View = () => {
   return (
     <div className="">
-      <section id="home" className="w-full flex justify-center items-center h-screen ">
-        <div className=" ">
+      <section id="home" className="w-full flex flex-col sm:flex sm:flex-wrap  justify-center items-center sm:h-screen max-sm:pb-16  ">
+        <div className="max-sm:ml-12 ">
           <img className={style.imgMe} src="./foto.png" alt="holacomovas" />
         </div>
-        <div className="mr-16">
-          <h1 class="text-8xl mb-4" className={style.text}>Omar</h1>
+        <div className="mr-16 max-sm:text-center ">
+          <h1 class="text-8xl mb-4  max-sm:mr-24" className={style.text}>Omar</h1>
           <div>
           <h1 class="text-8xl mb-4 ml-32" className={style.text1}>Sampayo</h1>
           </div>
-          <h3 className="text-4xl mt-8">Full-Stack Web Developer</h3>
-          <p className=" mt-8 mr-16">
+          <h3 className="text-4xl mt-8 max-sm:ml-14">Full-Stack Web Developer</h3>
+          <p className=" mt-8 mr-16 max-sm:ml-24">
             I'm 18 years old and I'm from Valencia, Venezuela. <br /> Over the last
             year, I have worked on various <br />
             projects using mainly the MERN stack. <br /> One of the things I enjoy most
@@ -28,12 +28,12 @@ export const View = () => {
           </p>
         </div>
       </section>
-      <section id="exterprise" className="pt-32 pb-80">
+      <section id="exterprise" className="pt-32 pb-80 ">
         <div className="flex justify-center">
           <h1 className="text-7xl">My Exterprise</h1>
         </div>
-        <div className="w-full flex justify-center items-center mt-32">
-          <div className="pr-64">
+        <div className="w-full flex justify-center items-center mt-32 max-sm:flex-col">
+          <div className="sm:pr-64 max-sm:mb-44">
             <div className="flex items-center mb-8">
               <img className="h-16 w-16" src="./react.svg" alt="" />
               <div>

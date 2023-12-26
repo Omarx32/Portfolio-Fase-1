@@ -52,7 +52,7 @@ export const Cards = () => {
           <img
             src=" ./chrome-capture-2023-11.png"
             alt="hola"
-            className="w-86 h-52 rounded-3xl transition-transform duration-1000 hover:scale-110"
+            className="w-86 h-52 rounded-3xl transition-transform duration-1000 hover:scale-110 "
             style={{width:'290px', height:'150px'}}
           />
           <div className="flex justify-center mt-4">

@@ -7,6 +7,7 @@
  border-radius: 40px;
  border: 2px solid rgb(93, 230, 173) ;
 }
+
 .parrafo{
     line-height: 1.2; /* Ajusta según tus necesidades */
   font-size: 14px; /* Ajusta el tamaño de fuente según tus necesidades */
@@ -47,4 +48,13 @@
   background-color: #e5f8f7;
   border: 1px solid #fff;
   border-radius: 20px;
+}
+@media only screen and (max-width: 520px) {
+ .imgMe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
 }
