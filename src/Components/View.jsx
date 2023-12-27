@@ -6,11 +6,11 @@ import { Cards } from "./Cards/Cards";
 export const View = () => {
   return (
     <div className="">
-      <section id="home" className="w-full flex flex-col sm:flex sm:flex-wrap  justify-center items-center sm:h-screen max-sm:pb-16  ">
+      <section id="home" className="w-full flex flex-col max-lg:pb-64 max-lg:pt-32 lg:flex lg:flex-wrap lg:h-screen justify-center items-center  max-sm:pb-16  ">
         <div className=" ">
           <img className={style.imgMe} src="./foto.png" alt="holacomovas" />
         </div>
-        <div className="mr-16 max-sm:text-center ">
+        <div className="mr-16 max-lg:text-center  ">
           <h1 class="text-8xl mb-4  max-sm:mr-24" className={style.text}>Omar</h1>
           <div>
           <h1 class="text-8xl mb-4 ml-32" className={style.text1}>Sampayo</h1>
